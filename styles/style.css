@@ -1,0 +1,49 @@
+.btn:hover {
+    color: aqua;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+}
+
+.banner-title {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.banner-title-text {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+
+.banner-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.card-img-top{
+    transition: .7s;
+}
+.card:hover img{
+    overflow: hidden;
+    border-radius: 25px;
+    transform: scale(0.9);
+}
+
+.card-title:hover {
+    color: red;
+}
+.sub-text{
+    visibility: hidden;
+}
+.rg-container{
+    background-image: url(../images/bg3.jpg);
+    padding: 200px;
+    background-size: cover;
+}
+
